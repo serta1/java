@@ -1,1 +1,2 @@
-# java code super useful
+# java code super useful for everybody
+
