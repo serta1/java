@@ -21,7 +21,7 @@ while(i<=n)
 }
 
 
-static int sum(int start, int ende){
+static int sum(int start, int ende){ // Beispiel Program Sum im Buch
 	int ergebnis = 0;
 	int summe = 0;
 	int i= start;
@@ -34,7 +34,7 @@ static int sum(int start, int ende){
 	return summe;
 	}
 	
-static int sum7(){
+static int sum7(){ // immer plus 7
 	int i = 0;
 
 	while((i+7)< 1000){
@@ -43,7 +43,7 @@ static int sum7(){
 		return i;
 	}
 	
-static int fact(int n ){
+static int fact(int n ){ // Fakultaet
 	int erg = 1;
 	int i = 1;
 	while(i <= n){
@@ -54,7 +54,7 @@ static int fact(int n ){
 	return erg;
 	}		
 
-static int Dfact(int n){
+static int Dfact(int n){ //Fakultaet aber nur alle zwei Stellen multipliziert
 	 
 	int erg = 1;
 	
