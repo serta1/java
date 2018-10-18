@@ -1,0 +1,38 @@
+prog ws 15
+
+uebung: 1
+aufg 1)
+terminal -> a/b
+wort -> ( terminal / terminal terminal / terminal terminal a a a terminal terminal [termnial]* / termianl terminal b b terminal terminal [terminal]* )
+
+aufg 2)
+A = { a, abcb, abcd, abcde, abcdf, ad, ade, adf}
+
+3)
+1 top10 nein weil groß am Anfang ( würde aber kompilieren)
+2 nein weil groß am Anfang und Bindestrich
+3 ja
+4 nein weil zahl am Anfang
+5 nein weil / sonderzeichen
+6 nein weil sonderzeichen ' und groß am Anfang
+7 nein anfangsgroßbuchstabe (aber kompiliert)
+8 ja
+9 nein Großbuschstabe und Sonderzeichenn :.
+10 nein weil Großbuschstabe (aber kompiliert)
+
+
+
+4)
+a richtig int 111
+b falsch
+c richtig int 2
+d falsch
+e richitg int 0
+f richtig double -18,5
+g falsch
+h richtig int 25
+i falsch
+j richtig int 8
+k richtig double 4
+
+

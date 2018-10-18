@@ -1,0 +1,89 @@
+prog ws 15
+uebung 2
+
+
+aufg 1)
+
+a a/b -c/d
+b a*c*-1
+c ((a*x + b)*x +c)*x +d
+d (a-b)*(a-b)*(a-b)
+e (1 + (2 + 3/a)/a)/a
+f (3*c)/(2*a) 
+
+
+2)
+
+1
+if((g==false || h==false )&& ( !g==false || !h==false)){
+c=(int)3.141;
+}
+
+2
+while((a>b)&&(a>c)&&(a>d)&&(((d*e)/f)==0.0)){
+g = h||i;
+}
+
+3
+(d==0.0)||(e==0.0)||(f==0.0)||((g&&!h)==true||!i==true);
+
+4
+if((h==false)||((h&&i)==true)){
+g=true;
+}else{
+g=false;
+}
+
+5
+while((d>a)&&((b!=0) &&(e!=0))){
+c = f/b + f/c;
+}
+
+
+class Muenzen{
+public static void main(String[] args){
+double dollar = Double.parseDouble(args[0]);
+
+int buck;
+int half;
+int quarter;
+int dime;
+int nickel;
+int penny;
+
+
+int ges = (int)(100.0*dollar);
+int rest = 0;
+rest = ges%100;
+buck = ges/100;
+ges = rest;
+
+rest = ges%50;
+half = ges/50;
+ges = rest;
+
+rest = ges%25;
+quarter = ges/25;
+ges = rest;
+
+rest = ges%10;
+dime = ges/10;
+ges = rest;
+
+rest = ges%5;
+nickel = ges/5;
+penny = rest;
+
+System.out.println(buck + " x 1 Dollar");
+System.out.println(half + " x 50 Cent");
+System.out.println(quarter + " x 25 Cent");
+System.out.println(dime + " x 10 Cent");
+System.out.println(nickel + " x 5 Cent");
+System.out.println(penny + " x 1 Cent");
+
+}
+}
+
+
+
+}
